@@ -1,0 +1,33 @@
+#This folder contains all the datasets used in this work. Below, a brief description of each file is given.
+
+icsd_full_data_unique_no_frac_no_penta_2020.txt (NOT PROVIDED; Obtain from ICSD): 
+"A single column list of the 53,594 synthesized formulas in the Synthesizability Dataset."
+
+standard_neg_ex_tr_val_v5_balanced_shuffled.txt
+"A single column list of 1,132,884 artificially generated formulas that do not appear in the ICSD."
+
+roost_MP_ehull_preds.csv
+"A 4-column list of the 125,285 Materials Project entries used to train roost. The columns given the MPID, composition,predicted Ehull, and true Ehull."
+material_id,composition,ehull_pred_n0,ehull_target
+mp-1000,BaTe,0.01425836980342865,0.0
+mp-10000,Hf2S,0.04587969928979874,0.0
+mp-10003,Nb4CoSi,0.05352155119180679,0.012783703
+
+icsd_full_data_unique_no_frac_DECADE_nopenta.txt (NOT PROVIDED; Obtain from ICSD)
+"A single column list of the formulas in the ICSD synthesized before the year DECADE."
+
+icsd_full_data_unique_no_frac_DECADE_only_nopenta.txt (NOT PROVIDED; Obtain from ICSD)
+"A single column list of the formulas in the ICSD synthesized in the decade, DECADE. I.e. if DECADE=2010, contains all materials synthesized between 2010-2019."
+
+icsd_full_properties_tab_unique.txt (NOT PROVIDED; Obtain from ICSD)
+"A tab-delimited list of the ICSD, composition, temperature, pressure, journal title, year of publication."
+1       (Cr2 Te4 O11)   293.00  0.101325        Cr2 Te4 O11: une structure a anions complexes (Cr2 O10)(14-)    1976
+10      Sr3 (P3 O9)2 (H2 O)7    293.00  0.101325        Structure cristalline du trimetaphosphate de strontium heptahydrate Sr3 (P3 O9)2 (H2 O) 1976    
+1000    Cs2 Li (Fe (C N)6)      293.00  0.101325        Crystal structure of Cs2 Li Fe (C N)6 by neutron diffraction    1977 
+
+results_common_ox3.txt
+"A tab-delimited list of 218,839 ICSD entries giving: chemical formula, if the formula is charge-balanced, and the charge-balanced oxidation states."
+Cr2 Te4 O11     ['True', {'Cr': 3.0, 'Te': 4.0, 'O': -2.0}]
+Sr3 P6 O25 H14  ['True', {'Sr': 2.0, 'P': 5.0, 'H': 1.0, 'O': -2.0}]
+Cs2 Li1 Fe1 C6 N6       ['False', 'TooManyAtoms']
+

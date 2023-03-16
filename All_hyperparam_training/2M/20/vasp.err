@@ -1,0 +1,41 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) math   2) devel
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:427: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:431: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:449: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2021-08-22 12:34:36.409762: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-08-22 12:34:36.417534: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600035000 Hz
+2021-08-22 12:34:36.417711: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5fe2f90 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-08-22 12:34:36.417741: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-08-22 12:34:36.420912: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /share/software/user/open/python/3.6.1/lib:/share/software/user/open/sqlite/3.18.0/lib:/share/software/user/open/tcltk/8.6.6/lib:/share/software/user/open/libressl/2.5.3/lib:/share/software/user/open/xz/5.2.3/lib:/share/software/user/open/zlib/1.2.11/lib:/home/vossj/suncat/lib:/home/vossj/suncat/lib64::
+2021-08-22 12:34:36.420973: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-22 12:34:36.421008: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (sh01-27n34.int): /proc/driver/nvidia/version does not exist
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/util/tf_should_use.py:198: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:469: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:489: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+slurmstepd: error: *** JOB 31990503 ON sh02-05n16 CANCELLED AT 2021-08-22T13:15:01 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990493 ON sh02-04n42 CANCELLED AT 2021-08-22T13:35:27 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990486 ON sh02-05n07 CANCELLED AT 2021-08-22T13:35:27 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990490 ON sh01-27n34 CANCELLED AT 2021-08-22T13:42:41 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990487 ON sh01-27n34 CANCELLED AT 2021-08-22T13:42:41 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990484 ON sh01-18n17 CANCELLED AT 2021-08-22T15:06:11 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990488 ON sh01-18n17 CANCELLED AT 2021-08-22T15:06:11 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990489 ON sh01-18n17 CANCELLED AT 2021-08-22T15:06:11 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990491 ON sh02-02n72 CANCELLED AT 2021-08-22T15:19:51 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990496 ON sh02-02n64 CANCELLED AT 2021-08-22T15:19:51 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990485 ON sh02-02n25 CANCELLED AT 2021-08-22T15:24:36 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990497 ON sh01-18n24 CANCELLED AT 2021-08-22T16:15:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990498 ON sh01-18n24 CANCELLED AT 2021-08-22T16:15:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 31990492 ON sh01-27n34 CANCELLED AT 2021-08-24T12:34:37 DUE TO TIME LIMIT ***

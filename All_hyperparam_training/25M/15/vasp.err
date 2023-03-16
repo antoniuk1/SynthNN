@@ -1,0 +1,72 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) math   2) devel
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) math   2) devel
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:427: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:427: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:431: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:431: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:449: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:449: The name tf.InteractiveSession is deprecated. Please use tf.compat.v1.InteractiveSession instead.
+
+2021-08-24 15:09:41.150731: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-08-24 15:09:41.150750: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-08-24 15:09:41.159077: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394470000 Hz
+2021-08-24 15:09:41.159313: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x4535450 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-08-24 15:09:41.159370: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-08-24 15:09:41.160507: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2394470000 Hz
+2021-08-24 15:09:41.160680: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x554d4d0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-08-24 15:09:41.160732: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-08-24 15:09:41.211356: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /share/software/user/open/python/3.6.1/lib:/share/software/user/open/sqlite/3.18.0/lib:/share/software/user/open/tcltk/8.6.6/lib:/share/software/user/open/libressl/2.5.3/lib:/share/software/user/open/xz/5.2.3/lib:/share/software/user/open/zlib/1.2.11/lib:/home/vossj/suncat/lib:/home/vossj/suncat/lib64::
+2021-08-24 15:09:41.211356: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /share/software/user/open/python/3.6.1/lib:/share/software/user/open/sqlite/3.18.0/lib:/share/software/user/open/tcltk/8.6.6/lib:/share/software/user/open/libressl/2.5.3/lib:/share/software/user/open/xz/5.2.3/lib:/share/software/user/open/zlib/1.2.11/lib:/home/vossj/suncat/lib:/home/vossj/suncat/lib64::
+2021-08-24 15:09:41.211550: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-24 15:09:41.211630: E tensorflow/stream_executor/cuda/cuda_driver.cc:318] failed call to cuInit: UNKNOWN ERROR (303)
+2021-08-24 15:09:41.211707: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (sh02-05n69.int): /proc/driver/nvidia/version does not exist
+2021-08-24 15:09:41.211749: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (sh02-05n69.int): /proc/driver/nvidia/version does not exist
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/util/tf_should_use.py:198: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/util/tf_should_use.py:198: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:469: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:469: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:489: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From atom2vec_semi_supervise_v3_batched_2020_hyperparams.py:489: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/users/eantoniu/.local/lib/python3.6/site-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+slurmstepd: error: *** JOB 32124916 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124912 ON sh02-07n36 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124913 ON sh02-07n34 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124915 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124918 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124923 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124919 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124917 ON sh02-07n33 CANCELLED AT 2021-08-25T22:05:08 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124926 ON sh02-05n71 CANCELLED AT 2021-08-25T22:11:42 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124929 ON sh02-02n58 CANCELLED AT 2021-08-25T22:11:42 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124927 ON sh02-04n22 CANCELLED AT 2021-08-25T22:12:59 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124911 ON sh02-02n54 CANCELLED AT 2021-08-25T22:21:12 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124910 ON sh02-02n27 CANCELLED AT 2021-08-25T22:21:46 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124925 ON sh02-02n27 CANCELLED AT 2021-08-25T22:21:46 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124924 ON sh02-02n27 CANCELLED AT 2021-08-25T22:21:46 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124920 ON sh02-10n20 CANCELLED AT 2021-08-25T22:23:16 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124930 ON sh02-05n69 CANCELLED AT 2021-08-26T15:09:25 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 32124931 ON sh02-05n69 CANCELLED AT 2021-08-26T15:09:25 DUE TO TIME LIMIT ***

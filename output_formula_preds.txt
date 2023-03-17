@@ -1,0 +1,3 @@
+formula,SynthPred(Synthesizable=1) 
+Na3O,0.0038738176
+KCl,0.6501727

@@ -21,8 +21,8 @@ This repository serves a few functions:
 - [License](#license)
 
 ## How to cite
-If you use SynthNN, please cite the following work:
-
+If you use SynthNN, please cite the following preprint:
+https://doi.org/10.21203/rs.3.rs-2574875/v1
 
 ## Prerequisites
 Requirements:

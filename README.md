@@ -29,6 +29,7 @@ Requirements:
 - Python
 - [Pymatgen](https://pymatgen.org/installation.html)
 - [Tensorflow](https://www.tensorflow.org/install)
+Alternatively, a conda environment can be made with the provided environment.yml file.
 
 ## Usage
 ### Reproduce Figures

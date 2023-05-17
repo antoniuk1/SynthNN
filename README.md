@@ -38,7 +38,7 @@ All figures in the manuscript can be reproduced with the Figure_Reproduction Jup
 Predicting the synthesizability of a material composition with a pre-trained version of SynthNN can be done either with SynthNN_predict.ipynb or by running SynthNN_predict.py.
 
 ## Data
-The Synthesizability Dataset used in this work was obtained from the [ICSD API](https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+api+service). If the ICSD API is not accessible, all figures can still be reproduced with the pre-processed data given in the "Figure_data" directory.
+The Synthesizability Dataset used in this work was obtained from the [ICSD API](https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+api+service). If the ICSD API is not accessible, all figures can still be reproduced with the pre-processed data given in the "Figure_data" directory. The negative examples are provided in the Datasets folder.
 
 ## Authors
 This code was primarily written by Evan Antoniuk (antoniuk1@llnl.gov).

@@ -16,6 +16,7 @@ This repository serves a few functions:
 - [Usage](#usage)
   - [Reproduce Figures](#reproduce-figures)
   - [Predict Synthesizability](#predict-synthesizability)
+  - [Retrain SynthNN](#retrain-synthnn)
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)

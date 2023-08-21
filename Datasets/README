@@ -3,7 +3,7 @@
 icsd_full_data_unique_no_frac_no_penta_2020.txt (NOT PROVIDED; Obtain from ICSD): 
 "A single column list of the 53,594 synthesized formulas in the Synthesizability Dataset."
 
-standard_neg_ex_tr_val_v5_balanced_shuffled.txt
+full_unsynthesized_examples.txt
 "A single column list of 1,132,884 artificially generated formulas that do not appear in the ICSD."
 
 roost_MP_ehull_preds.csv
@@ -25,7 +25,7 @@ icsd_full_properties_tab_unique.txt (NOT PROVIDED; Obtain from ICSD)
 10      Sr3 (P3 O9)2 (H2 O)7    293.00  0.101325        Structure cristalline du trimetaphosphate de strontium heptahydrate Sr3 (P3 O9)2 (H2 O) 1976    
 1000    Cs2 Li (Fe (C N)6)      293.00  0.101325        Crystal structure of Cs2 Li Fe (C N)6 by neutron diffraction    1977 
 
-results_common_ox3.txt
+icsd_full_properties_tab_unique_charges.txt
 "A tab-delimited list of 218,839 ICSD entries giving: chemical formula, if the formula is charge-balanced, and the charge-balanced oxidation states."
 Cr2 Te4 O11     ['True', {'Cr': 3.0, 'Te': 4.0, 'O': -2.0}]
 Sr3 P6 O25 H14  ['True', {'Sr': 2.0, 'P': 5.0, 'H': 1.0, 'O': -2.0}]

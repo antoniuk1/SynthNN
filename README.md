@@ -38,7 +38,7 @@ All figures in the manuscript can be reproduced with the Figure_Reproduction Jup
 ### Predict Synthesizability
 Predicting the synthesizability of a material composition with a pre-trained version of SynthNN with SynthNN_predict.ipynb.
 
-### Training a new SynthNN Model
+### Retrain SynthNN
 A new SynthNN model can be trained from scratch with the train_SynthNN.ipynb Jupyter Notebook.
 
 ## Data

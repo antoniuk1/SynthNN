@@ -16,6 +16,7 @@ This repository serves a few functions:
 - [Usage](#usage)
   - [Reproduce Figures](#reproduce-figures)
   - [Predict Synthesizability](#predict-synthesizability)
+  - [Retrain SynthNN](#retrain-synthnn)
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)
@@ -35,7 +36,10 @@ Requirements:
 All figures in the manuscript can be reproduced with the Figure_Reproduction Jupyter Notebook. 
 
 ### Predict Synthesizability
-Predicting the synthesizability of a material composition with a pre-trained version of SynthNN can be done either with SynthNN_predict.ipynb or by running SynthNN_predict.py.
+Predicting the synthesizability of a material composition with a pre-trained version of SynthNN with SynthNN_predict.ipynb.
+
+### Retrain SynthNN
+A new SynthNN model can be trained from scratch with the train_SynthNN.ipynb Jupyter Notebook.
 
 ## Data
 The Synthesizability Dataset used in this work was obtained from the [ICSD API](https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+api+service). If the ICSD API is not accessible, all figures can still be reproduced with the pre-processed data given in the "Figure_data" directory.

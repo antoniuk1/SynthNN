@@ -37,9 +37,24 @@ All figures in the manuscript can be reproduced with the Figure_Reproduction Jup
 
 ### Predict Synthesizability
 Predicting the synthesizability of a material composition with a pre-trained version of SynthNN with SynthNN_predict.ipynb.
+We recommend referring to the below performance metrics when choosing a decision threshold to label a material as synthesizable or not. The below table indicates the performance of
+SynthNN of a dataset with a 20:1 ratio of unsynthesized:synthesized examples.
+Threshold | Precision | Recall | 
+| :---: | :---: | :---: |
+0.10 | 0.239 | 0.859 |
+0.20 | 0.337 | 0.783 |
+0.30 | 0.419 | 0.721 |
+0.40 | 0.491 | 0.658 |
+0.50 | 0.563 | 0.604 |
+0.60 | 0.628 | 0.545 |
+0.70 | 0.702 | 0.483 |
+0.80 | 0.765 | 0.404 |
+0.90 | 0.851 | 0.294 |
 
 ### Retrain SynthNN
 A new SynthNN model can be trained from scratch with the train_SynthNN.ipynb Jupyter Notebook.
+
+
 
 ## Data
 The Synthesizability Dataset used in this work was obtained from the [ICSD API](https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+api+service). If the ICSD API is not accessible, all figures can still be reproduced with the pre-processed data given in the "Figure_data" directory.

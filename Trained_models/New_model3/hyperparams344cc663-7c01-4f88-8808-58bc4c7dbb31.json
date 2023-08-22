@@ -1,0 +1,1 @@
+{"M": 30, "tstep": 0.005, "num_steps": 800000, "no_h1": 60, "no_h2": 40, "batch_size": 512, "semi_starting": 60000, "positive_example_file_path": "Datasets/icsd_50_examples.txt", "negative_example_file_path": "Datasets/full_unsynthesized_examples.txt", "output_dir_name": "./Trained_models/New_model3/", "train_split": 0.9, "val_split": 0.05, "test_split": 0.05}

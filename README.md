@@ -33,10 +33,10 @@ Requirements:
 
 ## Usage
 ### Reproduce Figures
-All figures in the manuscript can be reproduced with the Figure_Reproduction Jupyter Notebook. 
+All figures in the manuscript can be reproduced with the Figure_Reproduction Jupyter Notebook. Note that a significant number of the figures depend on having access to the full ICSD dataset, which cannot be shared in this repo due to ICSD License Agreement. However, all figures can be reproduced with the provided pre-processed data in the 'Figure_data' folder.
 
 ### Predict Synthesizability
-Predicting the synthesizability of a material composition with a pre-trained version of SynthNN with SynthNN_predict.ipynb.
+Predicting the synthesizability of a material composition with a pre-trained version of SynthNN can be done with SynthNN_predict.ipynb.
 We recommend referring to the below performance metrics when choosing a decision threshold to label a material as synthesizable or not. The below table indicates the performance of
 SynthNN of a dataset with a 20:1 ratio of unsynthesized:synthesized examples. Note, a threshold value of '0.10' means that any material with a SynthNN output greater than 0.10 is taken to be synthesizable, which leads to low precision but high recall.
 Threshold | Precision | Recall | 
@@ -52,9 +52,7 @@ Threshold | Precision | Recall |
 0.90 | 0.851 | 0.294 |
 
 ### Retrain SynthNN
-A new SynthNN model can be trained from scratch with the train_SynthNN.ipynb Jupyter Notebook.
-
-
+A new SynthNN model can be trained from scratch with the train_SynthNN.ipynb Jupyter Notebook. Simply edit the 'positive_example_file_path' and 'negative_example_file_path' dictionary entries to point to your list of synthesized and unsynthesized materials, respectively. By default, trained model weights will be saved in the specified 'Trained_models' folder.
 
 ## Data
 The Synthesizability Dataset used in this work was obtained from the [ICSD API](https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+api+service). If the ICSD API is not accessible, all figures can still be reproduced with the pre-processed data given in the "Figure_data" directory.

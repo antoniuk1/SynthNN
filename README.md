@@ -22,8 +22,29 @@ This repository serves a few functions:
 - [License](#license)
 
 ## How to cite
-If you use SynthNN, please cite the following preprint:
-https://doi.org/10.21203/rs.3.rs-2574875/v1
+If you use SynthNN, please cite the following work:
+
+```
+@article{antoniuk_SynthNN_2023,
+	title = {Predicting the synthesizability of crystalline inorganic materials from the data of known material compositions},
+	volume = {9},
+	copyright = {2023 Springer Nature Limited},
+	issn = {2057-3960},
+	url = {https://www.nature.com/articles/s41524-023-01114-4},
+	doi = {10.1038/s41524-023-01114-4},
+	language = {en},
+	number = {1},
+	urldate = {2023-09-07},
+	journal = {npj Computational Materials},
+	author = {Antoniuk, Evan R. and Cheon, Gowoon and Wang, George and Bernstein, Daniel and Cai, William and Reed, Evan J.},
+	month = aug,
+	year = {2023},
+	note = {Number: 1
+Publisher: Nature Publishing Group},
+	keywords = {Computational methods, Design, synthesis and processing},
+	pages = {1--11},
+}
+```
 
 ## Prerequisites
 Requirements:

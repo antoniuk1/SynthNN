@@ -1,6 +1,5 @@
 # SynthNN
-This repository is the official implementation of SynthNN that is described in the paper "Predicting the Synthesizability of Crystalline Inorganic Materials from the Data of Known Material Compositions".
-
+This repository is the official implementation of SynthNN that is described in the paper "Predicting the Synthesizability of Crystalline Inorganic Materials from the Data of Known Material Compositions". (https://www.nature.com/articles/s41524-023-01114-4)
 This repository serves a few functions:
 
   i) Reproduce all the figures in the paper.
